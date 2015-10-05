@@ -1,11 +1,13 @@
 package com.example.michal.hellomoon;
 
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class HelloMoonActivity extends AppCompatActivity {
+public class HelloMoonActivity extends FragmentActivity
+{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,4 +36,4 @@ public class HelloMoonActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-}
+} // End class HelloMoonActivity
